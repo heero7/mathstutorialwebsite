@@ -95,3 +95,15 @@ ul {
     font-weight: bold;
     color: purple;
 }
+
+#introduction {
+    background: linear-gradient(greenyellow, lightgreen, greenyellow);
+    padding: 30px;
+    margin: 20px 0;
+}
+
+#introduction h3 {
+    font-size: 45px;
+    color: green;
+    font-weight: normal;
+}
