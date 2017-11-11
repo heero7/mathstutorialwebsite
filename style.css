@@ -133,6 +133,23 @@ ul {
     color: blueviolet;
 }
 
+#leftsidebar ul li {
+    padding-bottom: 6px;
+    list-style-image: url(images/arrowBullet.png);
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    text-decoration: none;
+    color: purple;
+    font-size: 25px;
+    font-weight: bold;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
 #leftsidebar {
     float: left;
 }
