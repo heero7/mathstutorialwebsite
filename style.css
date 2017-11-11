@@ -133,9 +133,18 @@ ul {
     color: blueviolet;
 }
 
+#leftsidebar ul {
+    padding-top: 15px;
+}
+
 #leftsidebar ul li {
     padding-bottom: 6px;
+    padding-left: 12px;
     list-style-image: url(images/arrowBullet.png);
+}
+
+#rightsidebar ul li {
+    list-style-image: url(images/checkmark.png);
 }
 
 .sidebar ul li a:hover, .sidebar ul li a.active {
